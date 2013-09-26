@@ -1,0 +1,17 @@
+body {
+	background: white no-repeat fixed;
+	background-position: 50% 75%;
+	-webkit-user-select: none;
+	font: 12px "Lucida Grande";
+}
+
+#label {
+	position: fixed;
+	top: 85%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	text-shadow: rgba(255,255,255,0.5) 0 1px 0;
+	color: rgba(0,0,0,0.75);
+	cursor: pointer;
+}

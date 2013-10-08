@@ -42,8 +42,11 @@ end
 # Use unicorn as the app server
 # gem 'unicorn'
 
+<<<<<<< HEAD
 #please work
 
+=======
+>>>>>>> origin/master
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 

@@ -6,13 +6,9 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-[
-  { name: 'Hat', price: 14.99 },
-  { name: 'Hoodie', price: 22.99 },
-  { name: 'iPhone Case', price: 9.99 }, 
-  { name: 'Journal', price:  12.99 },
-  { name: 'Shirt', price:  17.99 },
-  { name: 'Sticker', price: 2.99 }
-].each do |attrs|
-  Product.create!(attrs)
-end
+  betastore_hat = Product.create(name: "Betastore Hat", price: 10.99, url: "http://pjb3.github.io/betastore/products/hat.jpg")
+  betastore_hoodie = Product.create(name: "Betastore Hoodie", price: 10.99, url: "http://pjb3.github.io/betastore/products/hoodie.jpg")
+  betastore_iphone_case = Product.create(name: "Betastore iPhone Case", price: 10.99, url: "http://pjb3.github.io/betastore/products/iphone_case.jpg")
+  betastore_journal = Product.create(name: "Betastore Journal", price: 10.99, url: "http://pjb3.github.io/betastore/products/journal.jpg")
+  betastore_shirt = Product.create(name: "Betastore T-Shirt", price: 10.99, url: "http://pjb3.github.io/betastore/products/shirt.jpg")
+  betastore_sticker = Product.create(name: "Betastore Sticker", price: 10.99, url: "http://pjb3.github.io/betastore/products/sticker.jpg")

@@ -29,6 +29,7 @@ gem 'jbuilder', '~> 1.2'
 
 group :development do
   gem 'hirb'
+  gem 'quiet_assets'
 end
 
 group :doc do
